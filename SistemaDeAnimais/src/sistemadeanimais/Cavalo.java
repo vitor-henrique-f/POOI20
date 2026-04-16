@@ -1,0 +1,16 @@
+
+package sistemadeanimais;
+
+
+public class Cavalo extends Animal{
+    
+    public Cavalo(String nome, int idade) {
+        super(nome, idade, "Cavalo");
+    }
+
+    @Override
+    public void emitirSom() {
+        System.out.println("O cavalo relincha: Iiiirrrrí!");
+    }
+    
+}
